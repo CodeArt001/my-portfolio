@@ -77,7 +77,7 @@ export default function Name() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="border border-white rounded-full py-2 px-8 bg-white text-black cursor-pointer">
+            <button className="border border-white rounded-full py-2 px-8 bg-white text-black cursor-pointer text-sm">
               Get in Toch
             </button>
           </a>
@@ -85,7 +85,7 @@ export default function Name() {
             <span className="">
               <LuPhoneOutgoing />
             </span>
-            <button className=" cursor-pointer ">Schedule a Call</button>
+            <button className=" cursor-pointer text-sm">Schedule a Call</button>
           </div>
         </div>
       </div>

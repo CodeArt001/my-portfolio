@@ -5,8 +5,10 @@ import AboutUs from "../component/AboutUs";
 export default function Profile() {
   return (
     <div className="flex flex-col xl:flex-row md:flex-col xl:h-screen bg-black animate-fadeInDown">
-      <div className="xl:h-screen md:flex-shrink-0 relative overflow-hidden xl:w-[35%] md:w-full w-full z-0">
-        <StarBackground />
+      <div className="xl:h-screen md:flex-shrink-0 relative overflow-hidden xl:w-[35%] md:w-full w-full">
+        <div className="absolute inset-0 z-0 pointer-events-none">
+          <StarBackground />
+        </div>
         <div className="relative z-10">
           <div className="py-4">
             <div className="relative inline-flex items-center p-[2px] rounded-full overflow-hidden">
@@ -32,7 +34,7 @@ export default function Profile() {
         </div>
       </div>
       <div className="w-[1px] md:h-auto md:w-[1px] bg-white opacity-20 md:self-stretch" />
-      <div className="xl:flex-1 xl:h-screen xl:overflow-y-auto md:pt-5 z-10">
+      <div className="xl:flex-1 xl:h-screen xl:overflow-y-auto md:pt-5 z-10 md:pt-0 pt-10">
         <AboutUs />
       </div>
     </div>
