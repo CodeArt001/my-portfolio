@@ -15,7 +15,7 @@ export const metadata = {
   title: "Olaniyan Oluwajomiloju John",
   description: "Frontend Developer",
   icons: {
-    icon: "/image/favicon.jpg",
+    icon: "/image/favicon.ico",
   },
 };
 
