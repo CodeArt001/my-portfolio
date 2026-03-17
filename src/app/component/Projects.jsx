@@ -44,7 +44,7 @@ const Projects = () => {
   ];
   return (
     <div>
-      <div className="flex flex-row gap-4 items-center mt-4">
+      <div className="flex flex-row gap-4 items-center mt-4 text-white">
         <FolderGit2 size={30} />
         <h1 className="text-[24px] font-bold">Projects</h1>
       </div>
