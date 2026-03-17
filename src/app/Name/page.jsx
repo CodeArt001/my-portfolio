@@ -23,13 +23,13 @@ export default function Name() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="flex items-center gap-2 border border-white/20 rounded-full px-4 py-2 text-white hover:bg-white/10 transition cursor-pointer">
+          <button className="flex items-center gap-2 border border-white/20 rounded-full px-4  text-white hover:bg-white/10 transition cursor-pointer">
             <FileText size={16} />
             Resume
             <Download size={16} />
           </button>
         </a>
-        <div className="flex gap-10 items-center">
+        <div className="flex xl:gap-10 gap-5 items-center">
           <a href="mailto:olaniyanoluwajomiloju25@gmail.com">
             <div>
               <LuMail />
