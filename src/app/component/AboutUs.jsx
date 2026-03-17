@@ -12,7 +12,7 @@ const AboutUs = () => {
           size={45}
           className="text-blue-600 border border-gray-400 bg-gray-400 rounded-lg px-2"
         />
-        <h1 className="text-[30px] font-bold">About Me</h1>
+        <h1 className="text-[30px] font-bold text-white">About Me</h1>
       </div>
       <div className="flex flex-wrap gap-3 py-6">
         <p className="border border-white text-white px-3 py-1 rounded-lg">

@@ -63,9 +63,9 @@ const Projects = () => {
                 className="w-full h-[300px] object-cover object-top rounded-lg"
                 onError={(e) => console.log("Image failed:", items.image)}
               />
-              <h1 className="pt-3">{items.Title}</h1>
-              <div className="flex  justify-between items-center ">
-                <p className="py-1">{items.description}</p>
+              <h1 className="pt-3 text-white">{items.Title}</h1>
+              <div className="flex justify-between items-center ">
+                <p className="py-1 text-white">{items.description}</p>
                 <a
                   href={items.Link}
                   target="_blank"
@@ -75,12 +75,12 @@ const Projects = () => {
                   {" "}
                   <ExternalLink
                     size={40}
-                    className="hover:bg-gray-700 hover:rounded-lg px-2 cursor-pointer"
+                    className="hover:bg-gray-700 hover:rounded-lg px-2 cursor-pointer text-white"
                   />
                 </a>
               </div>
             </div>
-            <div>
+            <div className="text-white">
               <a
                 href={items.Link}
                 target="_blank"
