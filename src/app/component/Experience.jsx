@@ -3,7 +3,7 @@ import { MdCastForEducation } from "react-icons/md";
 
 const Experience = () => {
   return (
-    <div className="">
+    <div className="text-white">
       <h1 className="text-[30px] font-bold">Experience & Education</h1>
       <div className="flex flex-col xl:flex-row justify-between gap-2">
         <div>

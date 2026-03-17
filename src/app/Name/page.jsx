@@ -6,7 +6,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { PiWhatsappLogoLight } from "react-icons/pi";
 export default function Name() {
   return (
-    <div className="text-center flex flex-col items-center justify-center px-6 ">
+    <div className="text-center flex flex-col items-center justify-center px-6 text-white">
       <div></div>
       <h1 className="mt-2 text-[30px] font-Nunito">
         Olaniyan Oluwajomiloju John

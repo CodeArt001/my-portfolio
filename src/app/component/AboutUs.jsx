@@ -25,13 +25,13 @@ const AboutUs = () => {
           Realtime Application
         </p>
       </div>
-      <div className="md:text-[20px] text-[16px] ">
+      <div className="md:text-[20px] text-[16px] text-white">
         I&apos;m a Frontend Developer who builds web applications from the
         ground up. I work across the entire stack from designing responsive UIs
         with React, Next.js, and Tailwind CSS, to integrating REST APIs and
         bringing ideas to life with clean, efficient code.
       </div>
-      <p className="py-10 md:text-[20px] text-[16px]">
+      <p className="py-10 md:text-[20px] text-[16px] text-white">
         I specialize in crafting fast, beautiful, and user-centered web
         experiences. Whether it&apos;s building responsive interfaces with React
         and Next.js, creating smooth animations and interactions, or ensuring
@@ -44,7 +44,7 @@ const AboutUs = () => {
           size={30}
           className="border border-gray-400 bg-gray-600 rounded-lg px-2 font-black"
         />
-        <h1 className="font-bold text-[30px]">Tech Stack</h1>
+        <h1 className="font-bold text-[30px] text-white">Tech Stack</h1>
       </div>
       <div className="overflow-hidden w-full">
         <div className="animate-marque flex gap-12 items-center py-6 w-max">
