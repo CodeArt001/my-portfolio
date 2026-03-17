@@ -78,7 +78,7 @@ export default function Name() {
             rel="noopener noreferrer"
           >
             <button className="border border-white rounded-full py-2 px-8 bg-white text-black cursor-pointer text-sm">
-              Get in Toch
+              Get in Touch
             </button>
           </a>
           <div className="border border-white text-white py-2 px-3 rounded-full flex flex-row gap-2 items-center cursor-pointer">
