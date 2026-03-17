@@ -14,8 +14,9 @@ export default function Profile() {
             <div className="relative inline-flex items-center p-[2px] rounded-full overflow-hidden">
               <div className="absolute w-[200%] h-[200%] top-[-50%] left-[-50%] animate-spin-slow bg-[conic-gradient(from_0deg,transparent_0%,white_10%,transparent_20%)]" />
 
-              <button className="rounded-full px-3 py-2 text-white relative bg-black border border-white">
-                Available <span className="text-green-600 text-2xl">•</span>
+              <button className="rounded-full px-6 py-2 text-white relative bg-black border border-white flex items-center gap-3">
+                Available{" "}
+                <span className="text-green-600 text-2xl text-center ">•</span>
               </button>
             </div>
           </div>

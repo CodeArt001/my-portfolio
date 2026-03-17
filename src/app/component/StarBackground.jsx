@@ -9,8 +9,8 @@ export default function StarBackground() {
     const ctx = canvas.getContext("2d");
 
     // Fix: match canvas to full screen
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
 
     const stars = Array.from({ length: 50 }, () => ({
       x: Math.random() * canvas.width,
@@ -25,8 +25,7 @@ export default function StarBackground() {
 
     const animate = () => {
       // Fix: clear with black background each frame
-      ctx.fillStyle = "black";
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       stars.forEach((star) => {
         star.opacity += star.speed * star.direction;
